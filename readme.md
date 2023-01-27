@@ -32,5 +32,16 @@ git checkout rama-nueva-2
 git merge rama-nueva-1 -m "mensaje mergeador"  
 
 # revertir merge
-git reset --hard  
+git reset --hard 
+
+# Descarga el historial del marcador e incorpora cambios 
+git pull  
+
+# Borra la rama local especificada  
+git branch -d [branch-name]  
+
+# Borra la rama remota especificada  
+git push origin --delete [rama-a-borrar]
+
+https://training.github.com/downloads/es_ES/github-git-cheat-sheet/  
 
