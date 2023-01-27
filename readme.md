@@ -26,7 +26,11 @@ git commit -m "creamos una rama nueva y agregamos otra guia"
 git push -u origin rama-nueva-1  
 
 # merge nos situamos en la rama main, en este caso se llama igual 
-git merge main  
+git checkout rama-nueva-2 
 
 # mergeamos con la rama que elejimos
-git merge rama-nueva-1 -m "mensaje mergeador"
+git merge rama-nueva-1 -m "mensaje mergeador"  
+
+# revertir merge
+git reset --hard  
+
